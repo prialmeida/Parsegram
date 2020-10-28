@@ -15,6 +15,7 @@
 		E7286939253F556800E4DE5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7286937253F556800E4DE5A /* LaunchScreen.storyboard */; };
 		E7286944253F556900E4DE5A /* instagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7286943253F556900E4DE5A /* instagramTests.swift */; };
 		E728694F253F556900E4DE5A /* instagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E728694E253F556900E4DE5A /* instagramUITests.swift */; };
+		E73F349525489C5700C3FA30 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73F349425489C5700C3FA30 /* CommentCell.swift */; };
 		E793FE60253F59D6000E7F60 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E793FE5F253F59D6000E7F60 /* LoginViewController.swift */; };
 		E793FE65253F59E6000E7F60 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E793FE64253F59E6000E7F60 /* FeedViewController.swift */; };
 		E793FE6A253F64FC000E7F60 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E793FE69253F64FC000E7F60 /* CameraViewController.swift */; };
@@ -54,6 +55,7 @@
 		E728694A253F556900E4DE5A /* instagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E728694E253F556900E4DE5A /* instagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagramUITests.swift; sourceTree = "<group>"; };
 		E7286950253F556900E4DE5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73F349425489C5700C3FA30 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		E793FE5F253F59D6000E7F60 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E793FE64253F59E6000E7F60 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		E793FE69253F64FC000E7F60 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				E793FE64253F59E6000E7F60 /* FeedViewController.swift */,
 				E793FE69253F64FC000E7F60 /* CameraViewController.swift */,
 				E7B970C5253FC9C20012FB5E /* PostCell.swift */,
+				E73F349425489C5700C3FA30 /* CommentCell.swift */,
 			);
 			path = instagram;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				E793FE65253F59E6000E7F60 /* FeedViewController.swift in Sources */,
 				E728692F253F556300E4DE5A /* SceneDelegate.swift in Sources */,
 				E7B970C6253FC9C20012FB5E /* PostCell.swift in Sources */,
+				E73F349525489C5700C3FA30 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
